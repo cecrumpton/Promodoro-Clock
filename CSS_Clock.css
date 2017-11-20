@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+  margin: 10px;
+  background: -webkit-linear-gradient(top, #A2738B, #765466 50%, #765466 50%, #A2738B);
+}
+
+.container-fluid {
+  margin: auto;
+  padding: 50px 0px;
+  line-height: 20px;
+  height: 20px;
+}
+
+.btn, #textSession, #workClockSetTime, #textBreak, #breakClockSetTime  {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+#textSession, #workClockSetTime, #textBreak, #breakClockSetTime  {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#textSession, #textBreak {
+  font-size: 30px;
+}
+
+#workClockSetTime, #breakClockSetTime  {
+  font-size: 24px;
+}
+
+#textSession, #workClockSetTime {
+  color: #9BC53D;
+}
+
+#textBreak, #breakClockSetTime {
+  color: #C5303B;
+}
+
+#workClock, #breakClock {
+  margin: 10px;
+  font-family: 'Droid Sans Mono', monospace;
+  color: #FFFFFF;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.btn {
+  border-radius: 10px;
+  background-color: #4D8F8C;
+  border-color: #4D8F8C;
+  box-shadow: 2px 2px 5px #000000 !important;
+}
+
+.btn:hover {
+  background-color: #396966;
+  border-color: #396966;
+  box-shadow: 2px 2px 5px #000000;
+}

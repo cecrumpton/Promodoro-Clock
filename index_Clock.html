@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Pomodoro Clock</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+  <!--Google Font-->
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Gloria+Hallelujah" rel="stylesheet">
+
+  <!-- Local CSS file-->
+  <link rel="stylesheet" href="CSS_Clock.css">
+
+</head>
+<body>
+  <div class="container-fluid">
+  <div class="row">
+  <div class="col-3"></div>
+  <div class="col-2" id="leftSide">
+  <div id="workClockColumn">
+  <p id="textSession">Session Time</p>
+  <p id="workClockSetTime"></p>
+  <button class = "btn btn-primary" onclick = "addWorkClock()">+</button>
+  <button class = "btn btn-primary" onclick = "subtWorkClock()">-</button>
+  <p id="workClock"></p>
+  </div>
+  </div> <!--end .col-2-->
+  <div class="col-2">
+  </div> <!--end .col-2-->
+  <div class="col-2" id="rightSide">
+  <div id="breakClockColumn">
+  <p id="textBreak">Break Time</p>
+  <p id="breakClockSetTime"></p>
+  <button class = "btn btn-primary" onclick = "addBreakClock()">+</button>
+  <button class = "btn btn-primary" onclick = "subtBreakClock()">-</button>
+  <p id="breakClock"></p>
+  </div>
+  </div> <!--end .col-2-->
+  <div class="col-3"></div>
+  </div> <!--end .row-->
+  <div class="row">
+  <div class="col-12">
+  <div id="startStopDiv">
+  <button class = "btn btn-primary" onclick = "startDaClock()">click to start/stop</button>
+  </div>
+  </div>  <!--end .col-12-->
+  </div>  <!--end .row-->
+  </div> <!--end .containerFluid-->
+
+  <!--Local JavaScript file-->
+  <script src="JS_Clock.js"></script>
+</body>
+</html>
